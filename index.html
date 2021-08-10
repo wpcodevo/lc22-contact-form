@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Responsive Contact Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form class="form">
+        <h2 class="heading">Responsive Contact Form</h2>
+        <div class="form-controls">
+          <div class="field">
+            <div class="control">
+              <input type="text" placeholder="Name" />
+              <ion-icon name="person"></ion-icon>
+            </div>
+            <div class="control">
+              <input type="email" placeholder="Email" />
+              <ion-icon name="mail"></ion-icon>
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+              <input type="tel" placeholder="Phone Number" />
+              <ion-icon name="call"></ion-icon>
+            </div>
+            <div class="control">
+              <input type="text" placeholder="Website" />
+              <ion-icon name="globe"></ion-icon>
+            </div>
+          </div>
+          <div class="message">
+            <textarea name="message" placeholder="Enter Message"></textarea>
+            <ion-icon name="chatbubble-ellipses"></ion-icon>
+          </div>
+          <div class="buttons">
+            <div
+              class="g-recaptcha"
+              data-sitekey="6Lfjd-8bAAAAAAqo03Qu4kVIpeRh7Xwik1-CBDVt"
+            ></div>
+
+            <input type="submit" value="Send Message" />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
